@@ -5,16 +5,16 @@
 	<key>CompatibleVersion</key>
 	<integer>1</integer>
 	<key>RawQuery</key>
-	<string>(((kMDItemDisplayName = "*&gt;*"cd) || (kMDItemDisplayName = "*&lt;*"cd) || (kMDItemDisplayName = "*/*"cd) || (kMDItemDisplayName = "*\*"cd) || (kMDItemDisplayName = "*:*"cd) || (kMDItemDisplayName = "*\"*"cd) || (kMDItemDisplayName = "*|*"cd) || (kMDItemDisplayName = "*?*"cd) || (kMDItemDisplayName = "*\**"cd) || (kMDItemDisplayName = " *"cd) || (kMDItemDisplayName = "* "cd)))</string>
+	<string>(((kMDItemDisplayName = "*&gt;*"cd) || (kMDItemDisplayName = "*&lt;*"cd) || (kMDItemDisplayName = "*/*"cd) || (kMDItemDisplayName = "*\*"cd) || (kMDItemDisplayName = "*:*"cd) || (kMDItemDisplayName = "*\"*"cd) || (kMDItemDisplayName = "*|*"cd) || (kMDItemDisplayName = "*?*"cd) || (kMDItemDisplayName = "*\**"cd) || (kMDItemDisplayName = " *"cd) || (kMDItemDisplayName = "* "cd) || (kMDItemFSName = "*.pst"c) || (kMDItemFSName = "*.qbw"c) || (kMDItemFSName = "*.nd"c) || (kMDItemFSName = "*.qbw.tlg"c) || (kMDItemFSName = "*.des"c) || (kMDItemFSName = "*.qbr"c) || (kMDItemFSName = "*.qby"c) || (kMDItemFSName = "*.qbi"c) || (kMDItemFSName = "*.qbt"c) || (kMDItemFSName = "*.tmp"c) || (kMDItemFSName = "*.bak"c) || (kMDItemDisplayName = "~*"cd) || (kMDItemDisplayName = ".*"cd)))</string>
 	<key>RawQueryDict</key>
 	<dict>
 		<key>FinderFilesOnly</key>
 		<true/>
 		<key>RawQuery</key>
-		<string>(((kMDItemDisplayName = "*&gt;*"cd) || (kMDItemDisplayName = "*&lt;*"cd) || (kMDItemDisplayName = "*/*"cd) || (kMDItemDisplayName = "*\*"cd) || (kMDItemDisplayName = "*:*"cd) || (kMDItemDisplayName = "*\"*"cd) || (kMDItemDisplayName = "*|*"cd) || (kMDItemDisplayName = "*?*"cd) || (kMDItemDisplayName = "*\**"cd) || (kMDItemDisplayName = " *"cd) || (kMDItemDisplayName = "* "cd)))</string>
+		<string>(((kMDItemDisplayName = "*&gt;*"cd) || (kMDItemDisplayName = "*&lt;*"cd) || (kMDItemDisplayName = "*/*"cd) || (kMDItemDisplayName = "*\*"cd) || (kMDItemDisplayName = "*:*"cd) || (kMDItemDisplayName = "*\"*"cd) || (kMDItemDisplayName = "*|*"cd) || (kMDItemDisplayName = "*?*"cd) || (kMDItemDisplayName = "*\**"cd) || (kMDItemDisplayName = " *"cd) || (kMDItemDisplayName = "* "cd) || (kMDItemFSName = "*.pst"c) || (kMDItemFSName = "*.qbw"c) || (kMDItemFSName = "*.nd"c) || (kMDItemFSName = "*.qbw.tlg"c) || (kMDItemFSName = "*.des"c) || (kMDItemFSName = "*.qbr"c) || (kMDItemFSName = "*.qby"c) || (kMDItemFSName = "*.qbi"c) || (kMDItemFSName = "*.qbt"c) || (kMDItemFSName = "*.tmp"c) || (kMDItemFSName = "*.bak"c) || (kMDItemDisplayName = "~*"cd) || (kMDItemDisplayName = ".*"cd)))</string>
 		<key>SearchScopes</key>
 		<array>
-			<string>/Users/janderson/Box Sync</string>
+			<string>/Users/lars/Box Sync</string>
 		</array>
 		<key>UserFilesOnly</key>
 		<true/>
@@ -236,6 +236,240 @@
 						<key>subrows</key>
 						<array/>
 					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>pst</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>qbw</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>nd</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>qbw.tlg</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>des</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>qbr</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>qby</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>qbi</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>qbt</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>tmp</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>bak</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>kMDItemDisplayName</string>
+							<integer>101</integer>
+							<integer>104</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>Name</string>
+							<string>begins with</string>
+							<string>~</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>kMDItemDisplayName</string>
+							<integer>101</integer>
+							<integer>104</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>Name</string>
+							<string>begins with</string>
+							<string>.</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
 				</array>
 			</dict>
 		</array>
@@ -243,7 +477,7 @@
 		<integer>1396929382</integer>
 		<key>FXScopeArrayOfPaths</key>
 		<array>
-			<string>/Users/janderson/Box Sync</string>
+			<string>/Users/lars/Box Sync</string>
 		</array>
 	</dict>
 	<key>SuggestedAttributes</key>
@@ -298,9 +532,9 @@
 			<key>ShowToolbar</key>
 			<true/>
 			<key>SidebarWidth</key>
-			<integer>200</integer>
+			<integer>299</integer>
 			<key>WindowBounds</key>
-			<string>{{809, 97}, {770, 683}}</string>
+			<string>{{80, 4}, {770, 873}}</string>
 		</dict>
 	</dict>
 </dict>
